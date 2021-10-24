@@ -67,9 +67,9 @@ class Corpus(object):
         for example: ["rain", "the", ...]
         Update self.vocabulary_size
         """
-        # #############################
+        # ############################
         # your code here
-        # #############################
+        # ############################
         res = set()
         for doc in self.documents:
             res.update(doc)
